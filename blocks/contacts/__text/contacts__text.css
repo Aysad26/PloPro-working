@@ -1,0 +1,29 @@
+.contacts__text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 19px;
+  color: #222222;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  opacity: 1;
+  transition: opacity 0.2s ease-in;
+}
+
+.contacts__text:hover {
+  opacity: 0.6;
+}
+/*
+@media screen and (max-width: 1023px) {
+  .main {
+    width: calc(100% - 2*19px);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main {
+    padding-top: 42px;
+  }
+}
+

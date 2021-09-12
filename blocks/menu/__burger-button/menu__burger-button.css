@@ -1,0 +1,35 @@
+.menu__burger-button {
+  position: relative;
+  width: 26px;
+  height: 26px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.menu__burger-button:hover {
+  opacity: 0.5;;
+}
+
+.menu__burger-button:active, .menu__burger-button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 1279px) {
+  .menu__burger-button {
+      display: block;
+      }
+}
+
+@media screen and (max-width: 767px) {
+  .menu__burger-button {
+    right: 18px;
+    }
+}

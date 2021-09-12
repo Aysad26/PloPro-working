@@ -1,0 +1,26 @@
+.instructor__list-item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #212121;
+  margin-bottom: 8px;
+}
+
+.instructor__list-item:last-of-type {
+  margin-bottom:0;
+}
+
+/*
+@media screen and (max-width: 1023px) {
+  .main {
+    width: calc(100% - 2*19px);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main {
+    padding-top: 42px;
+  }
+}
+

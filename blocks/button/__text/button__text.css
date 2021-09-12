@@ -1,0 +1,9 @@
+.button__text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 16px 36px 21px 36px;
+}

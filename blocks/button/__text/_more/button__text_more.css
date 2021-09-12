@@ -1,0 +1,9 @@
+.button__text_more {
+  color:#EC4646;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 19px;
+  text-decoration: underline;
+  margin: 0 3px 0 0;
+}

@@ -1,0 +1,26 @@
+.instructor__gallery {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-top: 40px;
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 40px;
+  list-style: none;
+}
+
+/*
+@media screen and (max-width: 1023px) {
+  .main {
+    width: calc(100% - 2*19px);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main {
+    padding-top: 42px;
+  }
+}
+

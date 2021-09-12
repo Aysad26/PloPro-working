@@ -1,0 +1,28 @@
+.slider__number {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #AFAFAF;
+  margin-right: 5px;
+  margin-top: 15px;
+}
+
+.slider__number:last-child {
+  margin-right: 0;
+}
+/*
+
+@media screen and (max-width: 1023px) {
+  .main {
+    width: calc(100% - 2*19px);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main {
+    padding-top: 42px;
+  }
+}
+

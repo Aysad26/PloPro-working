@@ -1,0 +1,11 @@
+.menu__burger-button_active .menu__burger-lines {
+    background-color: transparent;
+  }
+  .menu__burger-button_active .menu__burger-lines::before {
+    top: 0;
+    transform: rotate(45deg);
+  }
+  .menu__burger-button_active .menu__burger-lines::after{
+    top: 0;
+    transform: rotate(-45deg);
+  }

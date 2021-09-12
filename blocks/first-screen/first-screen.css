@@ -1,0 +1,28 @@
+.first-screen {
+  width: 100%;
+  min-height: 535px;
+  margin: 0 auto 0 auto;
+  padding-right: 15%;
+  padding-left: 15%;
+  background-image: url("../../images/pattern.png");
+  background-repeat: repeat;
+  background-color:  #78899B;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+/*
+@media screen and (max-width: 1023px) {
+  .main {
+    width: calc(100% - 2*19px);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main {
+    padding-top: 42px;
+  }
+}
+

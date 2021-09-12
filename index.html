@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plo Pro</title>
+  <link rel="stylesheet" href="pages/index.css">
+</head>
+<body class="root">
+  <header class="header">
+    <div class="logo">
+      <img class="logo__image" src="./images/logo-black.svg" alt="логотип Plo Pro">
+      <div class="logo__divider"></div>
+      <p class="logo__title">АКАДЕМИЯ ПОКЕРА</p>
+    </div>
+    <div class="header__container">
+      <ul class="contacts">
+        <li class="contacts__item">
+          <a class="contacts__text" href="/"><img class="contacts__icon" src="./images/telegram.svg" alt="Телеграм">PloPro</a>
+        </li>
+        <li class="contacts__item">
+          <a class="contacts__text" href="/"><img class="contacts__icon" src="./images/envelope.svg" alt="email">plo-pro@gmail.com</a>
+        </li>
+      </ul>
+      <button class="button button_place_header"><p class="button__text">Подать заявку</p></button>
+      <div class="menu">
+        <p class="menu__title">МЕНЮ</p>
+          <button type="button" class="menu__burger-button">
+            <span class="menu__burger-lines"></span>
+          </button>  
+      </div>
+      <nav class="menu__navigation">
+        <ul>
+          <li><a class="menu-link" href="/" target="_self"><div class="menu-link__button">Об академии</div></a></li>
+          <li><a class="menu-link" href="/" target="_self"><div class="menu-link__button">Тренеры</div></a></li>
+          <li><a class="menu-link" href="/" target="_self"><div class="menu-link__button">Условия</div></a></li>
+          <li><a class="menu-link" href="/" target="_self"><div class="menu-link__button">Тренировки</div></a></li>
+          <li><a class="menu-link" href="/" target="_self"><div class="menu-link__button">Отзывы</div></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <section class="first-screen">
+      <div class="first-screen__content">
+        <h1 class="first-screen__heading">Академия успешных игроков в покер</h1>
+        <p class="first-screen__paragraph">PloPro - академия покера, занимающаяся обучением игроков 
+          всех уровней. Вас ждет уникальный обучающий материал, тактические тренинги, игровые
+          стратегии, а также персональный коуч от опытных наставников школы.</p>
+        <button class="button button_place_first-screen"><p class="button__text button__text_first-screen">Подать заявку</p></button>
+      </div>
+      <img class="first-screen__logo" src="./images/logo-white.svg" alt="логотип Plo Pro">
+    </section>  
+    <section class="about">
+      <img class="about__image" src="./images/card.png" alt="Игральная карта">
+      <div class="content">
+        <p class="content__description">Немного о нас</p>
+        <h2 class="content__heading">Об академии</h2>
+        <p class="content__paragraph">Plo Pro Academy - это современная система тренировок, созданная профи, для профи или для тех, 
+          кто хотели бы ими стать;</p>
+        <p class="content__paragraph">Plo Pro - это сплоченная команда, 15 лет опыта и наработок.</p>
+        <p class="content__paragraph">Plo Pro - это то, что вам нужно, чтобы выйти на качественно новый уровень понимания игры 
+          в кратчайшие сроки.</p>
+        <button class="button"><p class="button__text">Мне интересно</p></button>
+      </div>
+    </section>
+    <section class="instructors">
+      <p class="content__description">О тренерах</p>
+      <h2 class="content__heading">Вас обучают лучшие</h2>
+      <ul class="instructors__list">
+        <li class="instructor">
+          <div class="instructor__info">
+            <img class="instructor__image" src="./images/motorov.png" alt="Фото тренра">
+            <div class="instructor__info-container">
+              <h3 class="instructor__heading">Дмитрий “BiZZ” Моторов</h4>
+              <p class="instructor__description">Тренер, сооснователь академии</p>
+              <p class="instructor__text">Lorem Ipsum - это текст - рыба”, часто используемы в печати и вэб-дизайне.Lorem Ipsum  является стандартной рыбой для текстов на латинице.</p>
+              <ul class="instructor__list">
+                <li class="instructor__list-item">15 лет в покере, 7 лет из которых в PLO</li>
+                <li class="instructor__list-item">Дипраны на WSOP и WSOPE</li>
+                <li class="instructor__list-item">Успешная игра на High и Nosebleed stakes онлайн</li>
+                <li class="instructor__list-item">Выиграл за карьеру $1.000.000+</li>
+                <li class="instructor__list-item">Провел более 500 часов тренировок</li>
+              </ul>
+              <button class="button button_type_more">
+                <p class="button__text button__text_more">Читать больше</p>
+                <img class="button__icon" src="./images/arrow.svg" alt="Фото профиля">
+              </button>
+            </div>
+          </div>
+          <div class="instructor__statistic">
+            <h3 class="instructor__heading">Статистика Дмитрия</h3>
+            <ul class="instructor__gallery">
+              <li class="instructor__gallery-item"><img class="instructor__statistic-image" src="./images/statistic_01.png" alt="Фото профиля"></li>
+              <li class="instructor__gallery-item"><img class="instructor__statistic-image" src="./images/statistic_02.png" alt="Фото профиля"></li>
+            </ul>
+            <div class="slider">
+              <div class="slider__nav">
+                <div class="slider__nav-line"></div>
+                <p class="slider__active-number">01</p>
+                <p class="slider__number">/</p>
+                <p class="slider__number">03</p>
+              </div>
+              <div class="slider__buttons">
+                <button class="slider__button-left"></button>
+                <button class="slider__button-right"></button>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="instructor">
+          <div class="instructor__info">
+            <img class="instructor__image" src="./images/shahov.png" alt="Фото тренра">
+            <div class="instructor__info-container">
+              <h3 class="instructor__heading">Сергей “Sega” Шахов</h4>
+              <p class="instructor__description">Тренер, сооснователь академии</p>
+              <p class="instructor__text">Lorem Ipsum - это текст - рыба”, часто используемы в печати и вэб-дизайне.Lorem Ipsum  является стандартной рыбой для текстов на латинице.</p>
+              <ul class="instructor__list">
+                <li class="instructor__list-item">В покере более 10 лет</li>
+                <li class="instructor__list-item">Перед переходом в омаху, один из топовых регуляров High Stakes</li>
+                <li class="instructor__list-item">Быстро закрепился на средне-высоких лимитах PLO в новой дисциплине</li>
+                <li class="instructor__list-item">Сотни часов работы в солверах</li>
+                <li class="instructor__list-item">Владеет всеми тонкостями GTO стратегии</li>
+              </ul>
+              <button class="button button_type_more">
+                <p class="button__text button__text_more">Читать больше</p>
+                <img class="button__icon" src="./images/arrow.svg" alt="Фото профиля">
+              </button>
+            </div>
+          </div>
+          <div class="instructor__statistic">
+            <h3 class="instructor__heading">Статистика Сергея</h3>
+            <ul class="instructor__gallery">
+              <li class="instructor__gallery-item"><img class="instructor__statistic-image" src="./images/statistic_01.png" alt="Фото профиля"></li>
+              <li class="instructor__gallery-item"><img class="instructor__statistic-image" src="./images/statistic_02.png" alt="Фото профиля"></li>
+            </ul>
+            <div class="slider">
+              <div class="slider__nav">
+                <div class="slider__nav-line"></div>
+                <p class="slider__active-number">01</p>
+                <p class="slider__number">/</p>
+                <p class="slider__number">03</p>
+              </div>
+              <div class="slider__buttons">
+                <button class="slider__button-left"></button>
+                <button class="slider__button-right"></button>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <button class="button button_place_instructors">
+        <p class="button__text button__text_load">Смотреть еще тренеров</p>
+        <img class="button__icon" src="./images/more.svg" alt="иконка дозагрузки">
+      </button>
+    </section>
+    <section class="info">
+      <div class="info__content">
+        <div class="content">
+          <h2 class="content__heading">Условия</h2>
+          <p class="content__paragraph">Для наших игроков мы разработали гибкую систему контрактов и поощрений. Мы нацелены на длительное и плодотворное сотрудничество со всеми нашими учениками. Вы сами сможете выбрать дистанцию, которую хотите отыграть, а мы сделаем все, чтобы вы отыгралии ее с хорошим результатом.</p>
+        </div>
+        <img class="info__image" src="./images/dogovor.png" alt="Условия">
+      </div>
+      <div class="info__content">
+        <img class="info__image" src="./images/training.png" alt="Тренировка по Покеру">
+        <div class="content content_type_left">
+          <h2 class="content__heading">Тренировки</h2>
+          <p class="content__paragraph">Авторская система тренировок, направленная на прокачку уровня в кратчайшие сроки. 
+            Регулярные групповые занятия и разборы с применением современного GTO софта.</p>
+            <p class="content__paragraph">Доступ к основным обучающим сайтам, авторские видео, чарты и наработки. Работа в команде, обмен опытом с игроками ваших лимитов.</p>
+            <button class="button"><p class="button__text">Хочу узнать больше</p></button>
+        </div>
+      </div>
+    </section>
+    <section class="reviews">
+      <h2 class="content__heading">Отзывы наших выпускников</h2>
+      <ul class="reviews__list">
+        <li class="reviews__item">
+          <img class="reviews__image" src="./images/review_01.png" alt="Фото человека, оставившего отзыв">
+          <div class="reviews__content">
+            <h2 class="reviews__heading"></h1>
+            <p class="reviews__date"></p>
+            <p class="reviews__paragraph"></p>
+          </div>
+        </li>
+        <li class="reviews__item">
+          <img class="reviews__image" src="./images/profile-img.jpg" alt="Фото человека, оставившего отзыв">
+          <div class="reviews__content">
+            <h2 class="reviews__heading"></h1>
+            <p class="reviews__date"></p>
+            <p class="reviews__paragraph"></p>
+          </div>
+        </li>
+        <li class="instructor__list-item"></li>
+      </ul>
+      <div class="slider">
+        <div class="slider__nav">
+          <div class="slider__nav-line"></div>
+          <p class="slider__active-number">01</p>
+          <p class="slider__number">/</p>
+          <p class="slider__number">03</p>
+        </div>
+        <div class="slider__buttons">
+          <button class="slider__button-left"></button>
+          <button class="slider__button-right"></button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="form">
+      <div class="form__container">
+        <h3 class="form__heading"></h3>
+      <p class="form__text"></h3>
+      <div class="form__inputs">
+        <fieldset class="form__container">
+          <input />
+          <input />
+        </fieldset>
+        <fieldset class="form__container">
+          <input />
+          <input />
+        </fieldset>
+        <button></button>
+      </div>
+      <img class="first-screen__logo" src="./images/profile-img.jpg" alt="Фото профиля">
+    </div>
+    <div class="footer__contacts">
+      <p class="footer__contacts-heading"></p>
+      <ul class="contacts">
+        <li class="contacts__item">
+          <img class="contacts__icon" src="./images/profile-img.jpg" alt="Фото профиля">
+          <a class="contacts__text"></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <section class="popup">
+    <div class="popup__window">
+      <button type="button" class="button button_type_close"></button>
+      <h2 class="popup__heading">Редактировать профиль</h2>
+      <form class="form" name="profile-form">
+        <fieldset class="form__input-container">
+          <input type="text" class="form__item form__item_type_name" name="name-input" placeholder="Ваше имя" required>
+          <input type="text" class="form__item form__item_type_job" name="job-input" placeholder="Вид деятельности" required>
+        </fieldset>
+        <button class="button button_type_submit" type="submit">Сохранить</button>
+      </form>
+    </div>
+  </section>
+  <script src="./scripts/index.js"></script>
+</body>
+</html>

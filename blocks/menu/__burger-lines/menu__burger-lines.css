@@ -1,0 +1,29 @@
+.menu__burger-lines::before,
+.menu__burger-lines::after,
+.menu__burger-lines {
+  position: absolute;
+  display: block;
+  width: 26px;
+  height: 2px;
+  background-color: #3E3E3E;
+  transition: 0.08s ease-in;
+}
+
+.menu__burger-lines {
+  top: 50%;
+  left: 0px;
+}
+.menu__burger-lines::before {
+  content: '';
+  top: -6px;
+}
+.menu__burger-lines::after {
+  content: '';
+  top: 6px;
+  width: 18px;
+  left: 7px;
+}
+
+
+
+

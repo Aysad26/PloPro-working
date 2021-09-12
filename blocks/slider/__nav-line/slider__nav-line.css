@@ -1,0 +1,19 @@
+.slider__nav-line {
+  width: 35px;
+  height: 1px;
+  background-color: #848A96;
+  margin: 0 20px 0 0;
+}
+/*
+@media screen and (max-width: 1023px) {
+  .main {
+    width: calc(100% - 2*19px);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main {
+    padding-top: 42px;
+  }
+}
+

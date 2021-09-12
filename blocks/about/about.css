@@ -1,0 +1,26 @@
+.about {
+  width: 100%;
+  min-height: 640px;
+  margin: 0 auto 0 auto;
+  padding-right: 15%;
+  padding-left: 15%;
+  background-color:  white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+/*
+@media screen and (max-width: 1023px) {
+  .main {
+    width: calc(100% - 2*19px);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main {
+    padding-top: 42px;
+  }
+}
+

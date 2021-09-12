@@ -1,0 +1,21 @@
+.about__image {
+  max-width: 373px;
+  max-height: 410px;
+  object-fit: contain;
+  object-position: center;
+  margin-left: 56px;
+  margin-right: 112px;
+}
+/*
+@media screen and (max-width: 1023px) {
+  .main {
+    width: calc(100% - 2*19px);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main {
+    padding-top: 42px;
+  }
+}
+

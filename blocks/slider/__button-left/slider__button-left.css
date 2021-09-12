@@ -1,0 +1,29 @@
+.slider__button-left {
+  width: 45px;
+  height: 45px;
+  background-image: url(../../../images/left.svg);
+  background-position: center;
+  background-size: contain;
+  background-color: white;
+  transition: background-image 0.3s ease-in;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.slider__button-left:hover {
+  background-image: url(../../../images/left-hover.svg);
+}
+/*
+@media screen and (max-width: 1023px) {
+  .main {
+    width: calc(100% - 2*19px);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main {
+    padding-top: 42px;
+  }
+}
+
