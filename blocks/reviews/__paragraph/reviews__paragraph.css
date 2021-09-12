@@ -1,10 +1,11 @@
-.content__paragraph {
+.reviews__paragraph {
   max-width: 540px;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;  
-  margin: 0 0 18px 0;
+  font-size: 15px;
+  line-height: 19px;
+  color: #212121;  
+  margin: 0;
 }
 
 .content__paragraph:last-of-type {

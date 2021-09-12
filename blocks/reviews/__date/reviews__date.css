@@ -1,14 +1,11 @@
-.content__paragraph {
-  max-width: 540px;
+.reviews__date {
   font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;  
-  margin: 0 0 18px 0;
-}
-
-.content__paragraph:last-of-type {
-  margin: 0 0 55px 0;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 19px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #ABABAB; 
+  margin: 0 0 21px 0;
 }
 
 

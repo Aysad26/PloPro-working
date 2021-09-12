@@ -1,6 +1,12 @@
 .footer {
   width: 100%;
-  margin: 0 auto;
+  min-height: 836px;
+  margin: 0 auto 0 auto;
+  padding: 94px 15%;
+  background-image: url("../../images/pattern.png");
+  background-repeat: repeat;
+  background-color:  #78899B;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1023px) {

@@ -60,6 +60,10 @@
 @import url(../blocks/info/__content/info__content.css);
 @import url(../blocks/info/__image/info__image.css);
 @import url(../blocks/reviews/reviews.css);
+@import url(../blocks/reviews/__image/reviews__image.css);
+@import url(../blocks/reviews/__heading/reviews__heading.css);
+@import url(../blocks/reviews/__date/reviews__date.css);
+@import url(../blocks/reviews/__paragraph/reviews__paragraph.css);
 @import url(../blocks/reviews/__list/reviews__list.css);
 @import url(../blocks/reviews/__item/reviews__item.css);
 @import url(../blocks/reviews/__image/reviews__image.css);
