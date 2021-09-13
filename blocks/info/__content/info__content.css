@@ -15,16 +15,8 @@
 }
 
 
-/*
-@media screen and (max-width: 1023px) {
-  .main {
-    width: calc(100% - 2*19px);
+@media screen and (max-width: 1339px) {
+  .info__content {
+    flex-direction: column;
   }
 }
-
-@media screen and (max-width: 900px) {
-  .main {
-    padding-top: 42px;
-  }
-}
-

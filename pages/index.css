@@ -8,6 +8,7 @@
 @import url(../blocks/logo/__divider/logo__divider.css);
 @import url(../blocks/logo/__title/logo__title.css);
 @import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/_place/contacts_place_header.css);
 @import url(../blocks/contacts/__item/contacts__item.css);
 @import url(../blocks/contacts/__icon/contacts__icon.css);
 @import url(../blocks/contacts/__text/contacts__text.css);
@@ -60,6 +61,7 @@
 @import url(../blocks/info/info.css);
 @import url(../blocks/info/__content/info__content.css);
 @import url(../blocks/info/__image/info__image.css);
+@import url(../blocks/info/__image/_left/info__image_left.css);
 @import url(../blocks/reviews/reviews.css);
 @import url(../blocks/reviews/__image/reviews__image.css);
 @import url(../blocks/reviews/__heading/reviews__heading.css);
@@ -67,15 +69,21 @@
 @import url(../blocks/reviews/__paragraph/reviews__paragraph.css);
 @import url(../blocks/reviews/__list/reviews__list.css);
 @import url(../blocks/reviews/__item/reviews__item.css);
-@import url(../blocks/reviews/__image/reviews__image.css);
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/__window/popup__window.css);
 @import url(../blocks/popup/__heading/popup__heading.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
 @import url(../blocks/form/form.css);
+@import url(../blocks/form/__container/form__container.css);
 @import url(../blocks/form/__heading/form__heading.css);
-@import url(../blocks/form/__input-container/form__input-container.css);
+@import url(../blocks/form/__inputs/form__inputs.css);
+@import url(../blocks/form/__input/form__input.css);
 @import url(../blocks/form/__item/form__item.css);
+@import url(../blocks/form/__image/form__image.css);
+@import url(../blocks/form/__range-container/form__range-container.css);
+@import url(../blocks/form/__range/form__range.css);
+@import url(../blocks/form/__range-span/form__range-span.css);
+@import url(../blocks/form/__range-numbers/form__range-numbers.css);
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/__text/button__text.css);
 @import url(../blocks/button/__icon/button__icon.css);
@@ -86,6 +94,7 @@
 @import url(../blocks/button/_place/button_place_first-screen.css);
 @import url(../blocks/button/_type/button_type_more.css);
 @import url(../blocks/button/_place/button_place_instructors.css);
+@import url(../blocks/button/_place/button_place_form.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__contacts/footer__contacts.css);
 @import url(../blocks/footer/__contact-heading/footer__contact-heading.css);

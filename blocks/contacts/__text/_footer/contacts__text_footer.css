@@ -1,11 +1,8 @@
-.contacts__text {
+.contacts__text_footer {
   color: white;
   display: flex;
 }
 
-.contacts__text:hover {
-  opacity: 0.6;
-}
 /*
 @media screen and (max-width: 1023px) {
   .main {

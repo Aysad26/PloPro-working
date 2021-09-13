@@ -1,0 +1,10 @@
+.form__inputs {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+  grid-template-rows: repeat(auto-fit, 1fr);
+  justify-items: stretch;
+  gap: 20px 20px;
+  border: none;
+  padding: 0;
+}

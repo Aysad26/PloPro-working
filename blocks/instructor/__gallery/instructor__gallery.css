@@ -11,16 +11,9 @@
   list-style: none;
 }
 
-/*
 @media screen and (max-width: 1023px) {
-  .main {
-    width: calc(100% - 2*19px);
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .main {
-    padding-top: 42px;
+  .instructor__gallery {
+    justify-content: center;
   }
 }
 

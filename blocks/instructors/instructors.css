@@ -8,6 +8,13 @@
   background-color:  #F7F9F8;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 1279px) {
+  .instructors {
+    padding-right: 8%;
+    padding-left: 8%;
+  }
+}
 /*
 @media screen and (max-width: 1023px) {
   .main {

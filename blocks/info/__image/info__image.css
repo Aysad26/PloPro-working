@@ -1,18 +1,14 @@
 .info__image {
+  max-width: 540px;
   object-position: center;
   object-fit: cover;
+  margin-left: 50px;
 }
 
-/*
-@media screen and (max-width: 1023px) {
-  .main {
-    width: calc(100% - 2*19px);
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .main {
-    padding-top: 42px;
+@media screen and (max-width: 1339px) {
+  .info__image {
+    flex-direction: column;
+    margin: 40px auto 0 auto;
   }
 }
 

@@ -14,7 +14,7 @@
       <p class="logo__title">АКАДЕМИЯ ПОКЕРА</p>
     </div>
     <div class="header__container">
-      <ul class="contacts">
+      <ul class="contacts contacts_place_header">
         <li class="contacts__item">
           <a class="contacts__text" href="/"><img class="contacts__icon" src="./images/telegram.svg" alt="Телеграм">PloPro</a>
         </li>
@@ -163,7 +163,7 @@
         <img class="info__image" src="./images/dogovor.png" alt="Условия">
       </div>
       <div class="info__content">
-        <img class="info__image" src="./images/training.png" alt="Тренировка по Покеру">
+        <img class="info__image info__image_left" src="./images/training.png" alt="Тренировка по Покеру">
         <div class="content content_type_left">
           <h2 class="content__heading">Тренировки</h2>
           <p class="content__paragraph">Авторская система тренировок, направленная на прокачку уровня в кратчайшие сроки. 
@@ -214,22 +214,21 @@
   </main>
   <footer class="footer">
     <div class="form">
-        <div class="form__container">
-          <h2 class="form__heading">Запишитесь на первое бесплатное занятие</h2>
+      <div class="form__container">
+        <h2 class="form__heading">Запишитесь на первое бесплатное занятие</h2>
         <p class="content__paragraph">Заполните форму ниже и мы перезвоним Вам в течение 5 минут</h3>
-        <div class="form__inputs">
-          <fieldset class="form__fieldset">
-            <input />
-            <input />
-          </fieldset>
-          <fieldset class="form__fieldset">
-            <input />
-            <input />
-          </fieldset>
-          <button></button>
-        </div>
-    </div>
-    <img class="form__image" src="./images/cards.png" alt="Фото профиля">
+        <fieldset class="form__inputs">
+          <input type="text" class="form__input" name="name" placeholder="Введите ваше имя" minlength="2" maxlength="30" required></input>
+          <input type="email" class="form__input" name="name" placeholder="Введите ваш E-Mail" minlength="2" maxlength="30" required></input>
+          <input type="text" class="form__input" name="name" placeholder="Введите ваш Telegram" minlength="2" maxlength="30" required></input>
+          <div class="form__range-container">
+            <input class="form__range" type="range" min="100" max="5000" step="10"/>
+            <p class="form__range-span"><span class="form__range-numbers">150</span>$</p>
+          </div>
+          <button class="button button_place_form"><p class="button__text">Записаться</p></button>
+        </fieldset>
+      </div>
+      <img class="form__image" src="./images/cards.png" alt="Фото профиля">
     </div>
     <div class="footer__contacts">
       <p class="footer__contact-heading">Наши контакты:</p>

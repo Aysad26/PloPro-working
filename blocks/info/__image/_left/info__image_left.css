@@ -1,0 +1,28 @@
+.info__image_left {
+  max-width: 540px;
+  object-position: center;
+  object-fit: cover;
+  margin-left: 0;
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 1339px) {
+  .info__image_left {
+    flex-direction: column;
+    margin: 0 auto 40px auto;
+  }
+}
+
+/*
+@media screen and (max-width: 1023px) {
+  .main {
+    width: calc(100% - 2*19px);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main {
+    padding-top: 42px;
+  }
+}
+

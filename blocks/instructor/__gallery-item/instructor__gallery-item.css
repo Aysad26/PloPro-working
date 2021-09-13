@@ -12,16 +12,19 @@
   margin-right: 0;
 }
 
-/*
 @media screen and (max-width: 1023px) {
-  .main {
-    width: calc(100% - 2*19px);
+  .instructor__gallery-item {
+    display: none;
   }
-}
 
-@media screen and (max-width: 900px) {
-  .main {
-    padding-top: 42px;
+  .instructor__gallery-item:first-of-type {
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    justify-self: stretch;
   }
 }
 

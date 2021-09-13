@@ -1,24 +1,18 @@
 .reviews__list {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
   align-items: stretch;
   justify-content: space-between;
   box-sizing: border-box;
-  padding: 0 0 40px 0;
+  padding: 0 0 20px 0;
   list-style: none;
   margin: 0;
 }
 
-/*
-@media screen and (max-width: 1023px) {
-  .main {
-    width: calc(100% - 2*19px);
+@media screen and (max-width: 1279px) {
+  .reviews__list {
+    grid-template-columns: 1fr;
+    justify-content: stretch;
   }
 }
-
-@media screen and (max-width: 900px) {
-  .main {
-    padding-top: 42px;
-  }
-}
-

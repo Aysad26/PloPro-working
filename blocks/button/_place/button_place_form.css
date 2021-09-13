@@ -1,0 +1,8 @@
+.button_place_form {
+  background-color: #EC4646;
+  box-shadow: 0px 0px 4px rgba(236, 70, 70, 0.4);
+  max-width: 100%;
+  max-height: 100%;
+  padding-top: 4px;
+  box-sizing: border-box;
+}

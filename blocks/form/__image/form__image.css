@@ -1,0 +1,13 @@
+.form__image {
+  max-width: 396px;
+  margin-left: 50px;
+  object-fit: contain;
+  object-position: center;
+}
+
+@media screen and (max-width: 1339px) {
+  .form__image {
+    display: none;
+  }
+}
+

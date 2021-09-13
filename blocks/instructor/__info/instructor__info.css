@@ -9,16 +9,9 @@
   border-bottom: 1px dashed #E1E1E1;
   padding-bottom: 50px;
 }
-/*
-@media screen and (max-width: 1023px) {
-  .main {
-    width: calc(100% - 2*19px);
+
+@media screen and (max-width: 1279px) {
+  .instructor__info {
+    flex-direction: column;
   }
 }
-
-@media screen and (max-width: 900px) {
-  .main {
-    padding-top: 42px;
-  }
-}
-

@@ -2,6 +2,13 @@
   padding: 94px 15%;
   background-color: #F7F7FB;
 }
+
+@media screen and (max-width: 1279px) {
+  .reviews {
+    padding-right: 8%;
+    padding-left: 8%;
+  }
+}
 /*
 @media screen and (max-width: 1023px) {
   .main {
