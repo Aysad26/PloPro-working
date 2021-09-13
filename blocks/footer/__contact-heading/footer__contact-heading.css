@@ -1,0 +1,16 @@
+.footer__contact-heading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 19px;
+  color: #FFFFFF;
+  margin-right: 20px;
+}
+/*
+@media screen and (max-width: 767px) {
+  .footer__copyright {
+    margin-bottom: 36px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

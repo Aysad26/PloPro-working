@@ -1,0 +1,23 @@
+.first-screen__heading {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 34px;
+  line-height: 40px;
+  color: #212121;
+  max-width: 398px;
+  margin: 0 0 50px 0;
+}
+
+/*
+@media screen and (max-width: 1023px) {
+  .main {
+    width: calc(100% - 2*19px);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main {
+    padding-top: 42px;
+  }
+}
+

@@ -11,6 +11,7 @@
 @import url(../blocks/contacts/__item/contacts__item.css);
 @import url(../blocks/contacts/__icon/contacts__icon.css);
 @import url(../blocks/contacts/__text/contacts__text.css);
+@import url(../blocks/contacts/__text/_footer/contacts__text_footer.css);
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/menu/__title/menu__title.css);
 @import url(../blocks/menu/__burger-button/menu__burger-button.css);
@@ -72,6 +73,7 @@
 @import url(../blocks/popup/__heading/popup__heading.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
 @import url(../blocks/form/form.css);
+@import url(../blocks/form/__heading/form__heading.css);
 @import url(../blocks/form/__input-container/form__input-container.css);
 @import url(../blocks/form/__item/form__item.css);
 @import url(../blocks/button/button.css);
@@ -85,4 +87,5 @@
 @import url(../blocks/button/_type/button_type_more.css);
 @import url(../blocks/button/_place/button_place_instructors.css);
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__copyright/__copyright.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__contact-heading/footer__contact-heading.css);
