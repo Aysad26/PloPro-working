@@ -18,3 +18,9 @@
     padding: 60px 80px 60px 80px;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .form {
+    padding: 30px 30px 30px 30px;
+  }
+}

@@ -29,6 +29,15 @@
   }
 }
 
+@media screen and (max-width: 900px) {
+  .first-screen {
+    padding-right: 6%;
+    padding-left: 6%;
+  }
+}
+
+
+
 /*
 @media screen and (max-width: 1023px) {
   .main {
