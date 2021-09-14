@@ -4,3 +4,9 @@
   background-color: #ABABAB;
   margin-right: 15px;
 }
+
+@media screen and (max-width: 584px) {
+  .logo__divider {
+   display: none;
+  }
+}

@@ -7,6 +7,16 @@
   line-height: 20px;
   color: #FFFFFF;
 }
+
+
+@media screen and (max-width: 584px) {
+  .first-screen__paragraph {
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0 0 24px 0;
+  }
+}
+
 /*
 @media screen and (max-width: 1023px) {
   .main {

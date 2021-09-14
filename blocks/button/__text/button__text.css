@@ -7,3 +7,11 @@
   color: #FFFFFF;
   margin: 16px 36px 21px 36px;
 }
+
+@media screen and (max-width: 584px) {
+  .button__text {
+    font-size: 12px;
+    line-height: 19px;
+    margin: 16px 10px 16px 10px;
+  }
+}
