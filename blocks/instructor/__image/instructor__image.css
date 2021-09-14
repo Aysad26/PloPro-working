@@ -13,3 +13,9 @@
   }
 }
 
+@media screen and (max-width: 900px) {
+  .instructor__image {
+    max-width: 100%;
+  }
+}
+

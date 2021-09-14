@@ -21,3 +21,9 @@
     margin-top: 30px;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .about__image {
+    max-width: 100%;
+  }
+}

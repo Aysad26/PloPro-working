@@ -1,13 +1,11 @@
 .first-screen__logo {
   width: 250px;
-  height: 363px;
   margin-right: 56px;
 }
 
 @media screen and (max-width: 1279px) {
   .first-screen__logo {
     max-width: 250px;
-    max-height: 363px;
     object-position: center;
     object-fit: contain;
     margin-right: 0;
@@ -19,5 +17,12 @@
   .first-screen__logo {
     margin-bottom: 40px;
     margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .first-screen__logo {
+    max-width: 104px;
+    margin-bottom: 10px;
   }
 }

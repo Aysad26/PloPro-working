@@ -13,6 +13,12 @@
   }
 }
 
+@media screen and (max-width: 900px) {
+  .info__image_left {
+    max-width: 100%;
+  }
+}
+
 /*
 @media screen and (max-width: 1023px) {
   .main {

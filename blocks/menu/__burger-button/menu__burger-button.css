@@ -27,9 +27,3 @@
       display: block;
       }
 }
-
-@media screen and (max-width: 767px) {
-  .menu__burger-button {
-    right: 18px;
-    }
-}

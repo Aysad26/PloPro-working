@@ -15,5 +15,11 @@
   }
 }
 
+@media screen and (max-width: 900px) {
+  .footer {
+    padding: 60px 4% 20px 4%;
+  }
+}
+
 
 

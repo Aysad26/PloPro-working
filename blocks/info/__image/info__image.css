@@ -12,3 +12,9 @@
   }
 }
 
+@media screen and (max-width: 900px) {
+  .info__image {
+    max-width: 100%;
+  }
+}
+
