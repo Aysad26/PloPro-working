@@ -1,0 +1,31 @@
+.navigation__link-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 90px;
+}
+
+.navigation__link-button:last-of-type {
+  margin-right: 0;
+}
+
+.navigation__link-button:hover .navigation__link-hover {
+  width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .navigation__link-button {
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+}
+
+/*
+@media screen and (max-width: 767px) {
+    .place__website {
+      width: calc(100% - 2*16px);
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }

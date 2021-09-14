@@ -2,6 +2,7 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__front/header__front.css);
 @import url(../blocks/header/__container/header__container.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/__image/logo__image.css);
@@ -18,10 +19,12 @@
 @import url(../blocks/menu/__burger-button/menu__burger-button.css);
 @import url(../blocks/menu/__burger-button/_active/menu__burger-button_active.css);
 @import url(../blocks/menu/__burger-lines/menu__burger-lines.css);
-@import url(../blocks/menu/__navigation/menu__navigation.css);
-@import url(../blocks/menu/__navigation/_active/menu__navigation_active.css);
-@import url(../blocks/menu/__link/menu__link.css);
-@import url(../blocks/menu/__link-button/menu__link-button.css);
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/navigation/__list/navigation__list.css);
+@import url(../blocks/navigation/__active/navigation__active.css);
+@import url(../blocks/navigation/__link-button/navigation__link-button.css);
+@import url(../blocks/navigation/__link/navigation__link.css);
+@import url(../blocks/navigation/__link-hover/navigation__link-hover.css);
 @import url(../blocks/main/main.css);
 @import url(../blocks/first-screen/first-screen.css);
 @import url(../blocks/first-screen/__content/first-screen__content.css);

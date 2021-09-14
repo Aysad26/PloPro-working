@@ -27,3 +27,10 @@
       display: block;
       }
 }
+
+.menu__burger-button:hover .menu__burger-lines::after {
+  content: '';
+  top: 6px;
+  width: 26px;
+  left: 0;
+}

@@ -6,6 +6,14 @@
     transform: rotate(45deg);
   }
   .menu__burger-button_active .menu__burger-lines::after{
+    content: '';
+    width: 26px;
+    left: 0;
     top: 0;
     transform: rotate(-45deg);
+  }
+
+  .menu__burger-button_active:hover .menu__burger-lines::after{
+    left: 0;
+    top: 0;
   }

@@ -1,8 +1,13 @@
-.menu-link {
+.navigation__link {
   text-decoration: none;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 19px;
   color: #FFFFFF;
+  margin-bottom: 3px;
+}
+
+.navigation__link:hover .navigation__link-hover {
+  width: 100%;
 }

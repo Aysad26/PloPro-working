@@ -1,18 +1,15 @@
 .menu-link__button {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  width: 100%;
-  min-height: 36px;
-  border: 1px dotted #7b51d4;
-  box-sizing: border-box;
-  border-radius: 30px;
-  padding-left: 20px;
-  background-color: #4012A6;
-  color: white;
-  font-weight: normal;
-  font-size: 16px;
-  transition: background-color 0.1s ease-in;
+  justify-content: stretch;
+  margin-right: 90px;
 }
+
+.menu-link__button:last-of-type {
+  margin-right: 0;
+}
+
 /*
 @media screen and (max-width: 767px) {
     .place__website {

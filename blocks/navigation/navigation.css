@@ -1,8 +1,11 @@
-.menu {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-end;
+.navigation {
+  position: absolute;
+  z-index: -1;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: top 0.5s ease-in;
+  top: 0;
 }
 /*
 @media screen and (max-width: 1279px) {

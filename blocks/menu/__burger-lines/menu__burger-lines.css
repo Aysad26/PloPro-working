@@ -6,12 +6,12 @@
   width: 26px;
   height: 2px;
   background-color: #3E3E3E;
-  transition: 0.08s ease-in;
+  transition: 0.1s ease-in;
 }
 
 .menu__burger-lines {
   top: 50%;
-  left: 0px;
+  left: 0;
 }
 .menu__burger-lines::before {
   content: '';
@@ -23,6 +23,8 @@
   width: 18px;
   left: 7px;
 }
+
+
 
 
 
