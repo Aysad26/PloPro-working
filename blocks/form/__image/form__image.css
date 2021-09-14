@@ -1,8 +1,15 @@
 .form__image {
   max-width: 396px;
-  margin-left: 50px;
+  margin-left: 30px;
   object-fit: contain;
   object-position: center;
+}
+
+@media screen and (max-width: 1600px) {
+  .form__image {
+    max-width: 300px;
+    margin-left: 30px;
+  }
 }
 
 @media screen and (max-width: 1339px) {

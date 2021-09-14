@@ -1,12 +1,23 @@
 .form__inputs {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
-  grid-template-rows: repeat(auto-fit, 1fr);
+  grid-template-columns: 1fr 1fr;
   justify-items: stretch;
   gap: 20px 20px;
   border: none;
   padding: 0;
+}
+
+@media screen and (max-width: 1600px) {
+  .form__inputs {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 1339px) {
+  .form__inputs {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media screen and (max-width: 900px) {
