@@ -7,7 +7,3 @@
   color: #FFFFFF;
   margin-bottom: 3px;
 }
-
-.navigation__link:hover .navigation__link-hover {
-  width: 100%;
-}

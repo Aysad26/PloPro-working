@@ -4,15 +4,24 @@
   box-shadow: none;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  max-width: 124px;
-  
+  color:#EC4646;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 19px;
+  text-decoration: underline;
+  margin: 0;
+  outline: none;
+  border: none;
 }
 
-.button_type_more::after {
-  background-image: url(../../../images/arrow.svg);
+.button_type_more:active, .button_type_moren:focus {
+  outline: none;
+  border: none;
 }
+
 /*
 @media screen and (max-width: 900px) {
   .button_type_add {

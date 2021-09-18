@@ -41,6 +41,8 @@
 @import url(../blocks/instructors/instructors.css);
 @import url(../blocks/instructors/__list/instructors__list.css);
 @import url(../blocks/instructor/instructor.css);
+@import url(../blocks/instructor/__invisible/instructor__invisible.css);
+@import url(../blocks/instructor/__visible/instructor__visible.css);
 @import url(../blocks/instructor/__info/instructor__info.css);
 @import url(../blocks/instructor/__info-container/instructor__info-container.css);
 @import url(../blocks/instructor/__image/instructor__image.css);
@@ -48,6 +50,8 @@
 @import url(../blocks/instructor/__description/instructor__description.css);
 @import url(../blocks/instructor/__text/instructor__text.css);
 @import url(../blocks/instructor/__list/instructor__list.css);
+@import url(../blocks/instructor/__content-hidden/instructor__content-hidden.css);
+@import url(../blocks/instructor/__content-hidden/_active/instructor__content-hidden_active.css);
 @import url(../blocks/instructor/__list-item/instructor__list-item.css);
 @import url(../blocks/instructor/__statistic/instructor__statistic.css);
 @import url(../blocks/instructor/__gallery/instructor__gallery.css);
@@ -90,6 +94,7 @@
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/__text/button__text.css);
 @import url(../blocks/button/__icon/button__icon.css);
+@import url(../blocks/button/__icon/_opened/button__icon_opened.css);
 @import url(../blocks/button/__text/_more/button__text_more.css);
 @import url(../blocks/button/__text/_load/button__text_load.css);
 @import url(../blocks/button/__text/_first-screen/button__text_first-screen.css);
@@ -98,6 +103,7 @@
 @import url(../blocks/button/_type/button_type_more.css);
 @import url(../blocks/button/_place/button_place_instructors.css);
 @import url(../blocks/button/_place/button_place_form.css);
+@import url(../blocks/button/__hidden/button__hidden.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__contacts/footer__contacts.css);
 @import url(../blocks/footer/__contact-heading/footer__contact-heading.css);

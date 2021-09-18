@@ -1,7 +1,8 @@
-.instructor__list {
-  padding: 18px;
-  list-style: disc;
-  margin-bottom: 18px;
+.instructor__content-hidden {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.3s, opacity 0.3s ease-in;
 }
 /*
 @media screen and (max-width: 1023px) {

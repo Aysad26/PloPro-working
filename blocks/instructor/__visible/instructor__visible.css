@@ -1,8 +1,8 @@
-.instructor__list {
-  padding: 18px;
-  list-style: disc;
-  margin-bottom: 18px;
+.instructor__visible {
+  display: flex;
 }
+
+
 /*
 @media screen and (max-width: 1023px) {
   .main {
