@@ -17,3 +17,10 @@
   }
 }
 
+@media screen and (max-width: 723px) {
+  .instructor__gallery {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+}
+

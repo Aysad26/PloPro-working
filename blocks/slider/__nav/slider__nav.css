@@ -7,16 +7,10 @@
   align-items: center;
   justify-content: flex-start;
 }
-/*
-@media screen and (max-width: 1023px) {
-  .main {
-    width: calc(100% - 2*19px);
-  }
-}
 
-@media screen and (max-width: 900px) {
-  .main {
-    padding-top: 42px;
+@media screen and (max-width: 723px) {
+  .slider__nav {
+    display: none;
   }
 }
 

@@ -4,16 +4,10 @@
   object-fit: contain;
   object-position: center;
 }
-/*
-@media screen and (max-width: 1023px) {
-  .main {
-    width: calc(100% - 2*19px);
-  }
-}
 
 @media screen and (max-width: 900px) {
-  .main {
-    padding-top: 42px;
+  .instructor__statistic-image {
+    height: 100%;
   }
 }
 

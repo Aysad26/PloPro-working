@@ -26,16 +26,7 @@ function getMoreInstructors(e) {
   });
 }
 
-buttonMenu.addEventListener('click', () => {
-  buttonMenu.classList.toggle('menu__burger-button_active');
-  navigation.classList.toggle('navigation__active')
-});
-
-buttonMoreInstructors.addEventListener("click", (e) => {
-  getMoreInstructors(e);
-});
-
-instructors.addEventListener("click", (e) => {
+function getMoreContent(e) {
   if (e.target.className = "button_type_more") {
     const instructorCard = e.target.closest('.instructor');
     const contentHidden = instructorCard.querySelector(".instructor__content-hidden");
@@ -47,5 +38,18 @@ instructors.addEventListener("click", (e) => {
       buttonText.textContent = 'Скрыть';
     } else {buttonText.textContent = 'Читать больше'}
   } else {return}
+}
+
+buttonMenu.addEventListener('click', () => {
+  buttonMenu.classList.toggle('menu__burger-button_active');
+  navigation.classList.toggle('navigation__active')
+});
+
+buttonMoreInstructors.addEventListener("click", (e) => {
+  getMoreInstructors(e);
+});
+
+instructors.addEventListener("click", (e) => {
+  getMoreContent(e);
 });
 
