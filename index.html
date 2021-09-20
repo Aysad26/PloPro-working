@@ -443,9 +443,18 @@
         <h2 class="form__heading">Запишитесь на первое бесплатное занятие</h2>
         <p class="content__paragraph">Заполните форму ниже и мы перезвоним Вам в течение 5 минут</h3>
         <fieldset class="form__inputs">
-          <input type="text" class="form__input" name="name" placeholder="Введите ваше имя" minlength="2" maxlength="30" required></input>
-          <input type="email" class="form__input" name="name" placeholder="Введите ваш E-Mail" minlength="2" maxlength="30" required></input>
-          <input type="text" class="form__input" name="name" placeholder="Введите ваш Telegram" minlength="2" maxlength="30" required></input>
+          <div class="form__input-container">
+            <img class="form__icon" src="./images/user 1.svg" alt="Фото профиля">
+            <input type="text" class="form__input" name="name" placeholder="Введите ваше имя" minlength="2" maxlength="30" required>
+          </div>
+          <div class="form__input-container">
+            <img class="form__icon" src="./images/envelope 3.svg" alt="Фото профиля">
+            <input type="email" class="form__input" name="name" placeholder="Введите ваш E-Mail" minlength="2" maxlength="30" required>
+          </div>
+          <div class="form__input-container">
+            <img class="form__icon" src="./images/telegram 3.svg" alt="Фото профиля">
+            <input type="text" class="form__input" name="name" placeholder="Введите ваш Telegram" minlength="2" maxlength="30" required>
+          </div>
           <div class="form__range-container">
             <input class="form__range" type="range" min="100" max="5000" step="10"/>
             <p class="form__range-span"><span class="form__range-numbers">150</span>$</p>
@@ -467,19 +476,7 @@
       </ul>
     </div>
   </footer>
-  <section class="popup">
-    <div class="popup__window">
-      <button type="button" class="button button_type_close"></button>
-      <h2 class="popup__heading">Редактировать профиль</h2>
-      <form class="form" name="profile-form">
-        <fieldset class="form__input-container">
-          <input type="text" class="form__item form__item_type_name" name="name-input" placeholder="Ваше имя" required>
-          <input type="text" class="form__item form__item_type_job" name="job-input" placeholder="Вид деятельности" required>
-        </fieldset>
-        <button class="button button_type_submit" type="submit">Сохранить</button>
-      </form>
-    </div>
-  </section>
+  
   <script src="./scripts/index.js"></script>
 </body>
 </html>
